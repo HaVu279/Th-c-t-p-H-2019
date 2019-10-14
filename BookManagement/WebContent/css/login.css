@@ -1,0 +1,90 @@
+body {
+	display: block;
+	top: 100px;
+	width: 400px;
+	height: 300px;
+	border: 6px solid #94b2bc;
+	border-radius: 15px;
+	margin: 0 auto;
+	padding: 20px;
+	padding-bottom: 40px;
+	background-color: #f3f6fb;
+	font-family: Consolas;
+	margin-top: 100px;
+}
+
+h1 {
+	font-family: Consolas;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+span {
+	color: red;
+	margin: 5px;
+	padding: 5px;
+}
+
+input {
+	padding: 5px;
+	margin-bottom: 10px;
+	height: 25px;
+	width: 85%;
+	border: 1px solid #d5e3e4;
+	border-radius: 5px;
+}
+
+input:focus {
+	background-color: #e9f1f4;
+}
+
+input[type="submit"] {
+	display: block;
+	width: 150px;
+	height: 40px;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 1px solid #8caeb8;
+	background-color: #8fb5c0;
+	color: white;
+	float: left;
+}
+
+input[type="submit"]:hover, input[type="submit"]:active {
+	background-color: #4267B2;
+	cursor: pointer;
+}
+
+::-webkit-input-placeholder {
+	font-style: italic;
+	color: gray;
+}
+
+input[type="checkbox"] {
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	padding: 0;
+}
+
+p {
+	padding: 0;
+	font-family: Times New Roman;
+	font-size: 18px;
+	color: gray;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #76b852;
+}
+
+a:hover, a:active {
+	color: orange;
+	border-radius: 5px;
+}

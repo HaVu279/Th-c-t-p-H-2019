@@ -1,0 +1,85 @@
+body {
+	width: 400px;
+	height: 470px;
+	border: 6px solid #94b2bc;
+	border-radius: 15px;
+	display: block;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #f3f6fb;
+	font-family: Consolas;
+	margin-top: 50px;
+}
+
+h1 {
+	font-family: Consolas;
+	font-size: 40px;
+	text-align: center;
+}
+
+span {
+	color: red;
+	margin: 5px;
+	padding: 5px;
+}
+
+.allow {
+	color: gray;
+}
+
+input {
+	padding: 5px;
+	margin-bottom: 10px;
+	height: 25px;
+	width: 85%;
+	border: 1px solid #d5e3e4;
+	border-radius: 5px;
+}
+
+input:focus {
+	background-color: #e9f1f4;
+}
+
+input[type="submit"] {
+	width: 350px;
+	height: 40px;
+	margin-top: 10px;
+	font-weight: bold;
+	border-radius: 10px;
+	border: 1px solid #8caeb8;
+	background-color: #8fb5c0;
+	color: white;
+}
+
+input[type="submit"]:hover, input[type="submit"]:active {
+	background-color: #4267B2;
+}
+
+::-webkit-input-placeholder {
+	font-style: italic;
+	color: gray;
+}
+
+input[type="checkbox"] {
+	width: 15px;
+	height: 15px;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 20px;
+	padding: 5px;
+	color: #76b852;
+}
+
+p {
+	color: gray;
+}
+
+a:hover, a:active {
+	color: orange;
+	background: rgba(0.15, 0, 2, 0.05);
+	border-radius: 5px;
+}
